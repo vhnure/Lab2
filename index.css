@@ -1,0 +1,14 @@
+#registration-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+#registration-form input:invalid {
+    border: 2px solid red;
+}
+  
+#registration-form input:valid {
+    border: 2px solid green;
+}
